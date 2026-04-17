@@ -312,26 +312,6 @@
   .benefit-card h3 { font-weight: 600; margin-bottom: 6px; font-size: 1rem; }
   .benefit-card p { color: rgba(255,255,255,0.5); font-size: 0.85rem; line-height: 1.6; }
 
-  /* TESTIMONIALS */
-  .testimonials { background: #0A0F1E; overflow: hidden; }
-  .testimonials-track { display: flex; gap: 24px; margin-top: 60px; animation: slide 30s linear infinite; width: max-content; }
-  .testimonials-track:hover { animation-play-state: paused; }
-  @keyframes slide { from{transform:translateX(0)} to{transform:translateX(-50%)} }
-  .testimonial {
-    width: 320px; flex-shrink: 0; padding: 28px;
-    background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08);
-    border-radius: 20px;
-  }
-  .test-stars { color: #F59E0B; font-size: 0.9rem; margin-bottom: 14px; }
-  .test-text { color: rgba(255,255,255,0.7); font-size: 0.88rem; line-height: 1.65; margin-bottom: 20px; font-style: italic; }
-  .test-author { display: flex; align-items: center; gap: 12px; }
-  .test-avatar {
-    width: 40px; height: 40px; border-radius: 50%; background: var(--gradient);
-    display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.9rem;
-  }
-  .test-name { font-weight: 600; font-size: 0.9rem; }
-  .test-role { color: rgba(255,255,255,0.4); font-size: 0.78rem; }
-
   /* CTA BANNER */
   .cta-section {
     padding: 100px 5%; text-align: center;
@@ -688,83 +668,6 @@
   </div>
 </section>
 
-<!-- TESTIMONIALS -->
-<section class="testimonials">
-  <div class="centered fade-up">
-    <span class="section-tag">Testimonials</span>
-    <h2 class="section-title">Trusted by Real Estate <span class="gradient-text">Professionals</span></h2>
-  </div>
-  <div style="overflow:hidden;margin-top:60px">
-    <div class="testimonials-track" id="testimonials-track">
-      <!-- Original set -->
-      <div class="testimonial">
-        <div class="test-stars">★★★★★</div>
-        <p class="test-text">"AmiFlow transformed our lead management completely. We went from missing 60% of night leads to zero missed inquiries. ROI in the first month itself."</p>
-        <div class="test-author">
-          <div class="test-avatar">RK</div>
-          <div><div class="test-name">Rahul Kapoor</div><div class="test-role">Director, Kapoor Realty, Mumbai</div></div>
-        </div>
-      </div>
-      <div class="testimonial">
-        <div class="test-stars">★★★★★</div>
-        <p class="test-text">"The WhatsApp automation is incredibly smart. It qualifies leads better than our junior sales staff did. Site visit bookings are up 3x since we started."</p>
-        <div class="test-author">
-          <div class="test-avatar">PS</div>
-          <div><div class="test-name">Priya Sharma</div><div class="test-role">Sales Head, Prestige Homes, Pune</div></div>
-        </div>
-      </div>
-      <div class="testimonial">
-        <div class="test-stars">★★★★★</div>
-        <p class="test-text">"We were skeptical at first but the results speak for themselves. 200+ leads handled automatically every day without a single manual message."</p>
-        <div class="test-author">
-          <div class="test-avatar">AM</div>
-          <div><div class="test-name">Arjun Mehta</div><div class="test-role">MD, Skyline Properties, Bangalore</div></div>
-        </div>
-      </div>
-      <div class="testimonial">
-        <div class="test-stars">★★★★★</div>
-        <p class="test-text">"Setup was smooth and the team was incredibly responsive. The brochure automation alone saves us 15 hours a week. Absolutely game-changing."</p>
-        <div class="test-author">
-          <div class="test-avatar">NK</div>
-          <div><div class="test-name">Neha Kulkarni</div><div class="test-role">Owner, NK Developers, Hyderabad</div></div>
-        </div>
-      </div>
-      <!-- Duplicated for infinite loop -->
-      <div class="testimonial">
-        <div class="test-stars">★★★★★</div>
-        <p class="test-text">"AmiFlow transformed our lead management completely. We went from missing 60% of night leads to zero missed inquiries. ROI in the first month itself."</p>
-        <div class="test-author">
-          <div class="test-avatar">RK</div>
-          <div><div class="test-name">Rahul Kapoor</div><div class="test-role">Director, Kapoor Realty, Mumbai</div></div>
-        </div>
-      </div>
-      <div class="testimonial">
-        <div class="test-stars">★★★★★</div>
-        <p class="test-text">"The WhatsApp automation is incredibly smart. It qualifies leads better than our junior sales staff did. Site visit bookings are up 3x since we started."</p>
-        <div class="test-author">
-          <div class="test-avatar">PS</div>
-          <div><div class="test-name">Priya Sharma</div><div class="test-role">Sales Head, Prestige Homes, Pune</div></div>
-        </div>
-      </div>
-      <div class="testimonial">
-        <div class="test-stars">★★★★★</div>
-        <p class="test-text">"We were skeptical at first but the results speak for themselves. 200+ leads handled automatically every day without a single manual message."</p>
-        <div class="test-author">
-          <div class="test-avatar">AM</div>
-          <div><div class="test-name">Arjun Mehta</div><div class="test-role">MD, Skyline Properties, Bangalore</div></div>
-        </div>
-      </div>
-      <div class="testimonial">
-        <div class="test-stars">★★★★★</div>
-        <p class="test-text">"Setup was smooth and the team was incredibly responsive. The brochure automation alone saves us 15 hours a week. Absolutely game-changing."</p>
-        <div class="test-author">
-          <div class="test-avatar">NK</div>
-          <div><div class="test-name">Neha Kulkarni</div><div class="test-role">Owner, NK Developers, Hyderabad</div></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <!-- CTA BANNER -->
 <section class="cta-section fade-up">
